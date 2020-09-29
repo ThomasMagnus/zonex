@@ -1,0 +1,43 @@
+* {
+  font-size: 13px;
+  font-family: "Jost-500-Medium";
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  padding: 0 15px;
+  position: relative;
+  max-width: 1820px;
+  margin: 0 auto;
+  height: 100%;
+}
+
+.visually-hidden {
+  opacity: 0;
+  position: absolute;
+}
+
+h1 {
+  margin: 0;
+}
+
+img {
+  width: 100%;
+}
+
+ul {
+  padding: 0;
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  border: none;
+  background: none;
+  cursor: pointer;
+}

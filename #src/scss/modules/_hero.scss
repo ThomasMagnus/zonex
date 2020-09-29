@@ -1,0 +1,32 @@
+.hero {
+  height: 100vh;
+  min-height: 700px;
+  background-color: #d9d9d7;
+  &__wrapper {
+    display: flex;
+    align-items: center;
+    max-width: 1326px;
+    margin: 0 auto;
+    height: 100%;
+  }
+  &__descr {
+    font-size: 18px;
+  }
+  &__text {
+    position: absolute;
+    left: 270px;
+  }
+  &__title {
+    font-size: 72px;
+    width: 452px;
+  }
+  &__descr {
+    margin-top: 50px;
+  }
+  &__img {
+    position: absolute;
+    max-height: 100%;
+    bottom: 0;
+    right: 203px;
+  }
+}
